@@ -1,20 +1,14 @@
-Here is a simple Python function that does exactly that:
+Here is a simple Python function that prints "Hello world Laxman":
 
 ```python
-def print_greeting():
+def greet_laxman():
     print("Hello world Laxman")
-
-# Call the function 
-print_greeting()
 ```
 
-This function, when called, prints the string "Hello world Laxman" to the console. If you want to make it more dynamic to greet different people, you could modify the function like so:
+To call this function and execute it, you can simply use the function name followed by parentheses:
 
 ```python
-def print_greeting(name):
-    print("Hello world " + name)
-
-# Call the function 
-print_greeting("Laxman")
+greet_laxman()
 ```
-This version of the function takes an argument that it adds to the end of the greeting. Calling `print_greeting("Laxman")` would produce the same output as before. Calling `print_greeting("John")` would instead print "Hello world John".
+
+When you run this code, it prints: `Hello world Laxman`. The function `greet_laxman` doesn't take any arguments and doesn't return any value. It simply performs an action : printing a string.
