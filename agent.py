@@ -1,10 +1,20 @@
-This is your Python function:
+Here is a simple Python function that does exactly that:
 
 ```python
-def print_message():
-    print("Hello world, Laxman")
+def print_greeting():
+    print("Hello world Laxman")
 
-# Calling the function
-print_message()
+# Call the function 
+print_greeting()
 ```
-This function `print_message()` prints a string `Hello world, Laxman` when it is called. To call the function, just use the function name followed by parenthesis as shown above.
+
+This function, when called, prints the string "Hello world Laxman" to the console. If you want to make it more dynamic to greet different people, you could modify the function like so:
+
+```python
+def print_greeting(name):
+    print("Hello world " + name)
+
+# Call the function 
+print_greeting("Laxman")
+```
+This version of the function takes an argument that it adds to the end of the greeting. Calling `print_greeting("Laxman")` would produce the same output as before. Calling `print_greeting("John")` would instead print "Hello world John".
